@@ -9,7 +9,7 @@ const Choices = (props) => {
     <div>
     <Fade>
     <Row>
-    <Col md="4" sm="2">
+    <Col md="4" sm="4">
       <Card>
         <CardBody>
           <CardTitle>Card title</CardTitle>
@@ -23,7 +23,7 @@ const Choices = (props) => {
         </CardBody>
       </Card>
       </Col>
-      <Col md="4" sm="2">
+      <Col md="4" sm="4">
       <Card>
         <CardBody>
           <CardTitle>Card title</CardTitle>
