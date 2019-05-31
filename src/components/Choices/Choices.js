@@ -1,12 +1,13 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import './Choices.css';
 
 import { Card, CardImg, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle, Row, Col } from 'reactstrap';
+  CardTitle, CardSubtitle, Row, Col, Container } from 'reactstrap';
 
 const Choices = (props) => {
   return (
-    <div>
+      <div className='choicesContainer'>
     <Fade>
     <Row>
     <Col md="4" sm="4">
@@ -55,7 +56,7 @@ const Choices = (props) => {
       </Col>
       </Row>
       </Fade>
-    </div>
+      </div>
   );
 };
 
