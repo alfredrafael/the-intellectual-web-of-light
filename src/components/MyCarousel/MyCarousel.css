@@ -1,0 +1,220 @@
+.carouselReturn { 
+ 
+}
+.carouselItem img { /*make pictures to fit in its carousel format */ 
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h3 {
+
+}
+
+.jumbotronContainer {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+ /*   margin: 0 15%; */ /*centralizes*/
+}
+
+.jumbotron {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    margin: 10% auto;
+
+    text-align: left;
+}
+
+.jumbotron h1 {
+    font-size: 550%;
+}
+
+/*
+from: https://github.com/reactstrap/reactstrap/issues/933
+
+.carousel-inner .carousel-item {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+  }
+  .carousel-inner .carousel-item:first-of-type {
+    position: relative;
+  }
+  .carousel-inner .active {
+    opacity: 1;
+  }
+  */
+
+
+/*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
+
+/*iPhone 5*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
+    .jumbotron h1 {
+        font-size: 150%;
+        margin: 15% 20%;
+    }
+    .jumbotron p {
+        display: none;
+    }
+}
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.jumbotron h1 {
+        font-size: 160%;
+        margin: 15% 20%;
+    }
+    .jumbotron p {
+        display: none;
+    }
+  
+}
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+   
+    .jumbotron h1 {
+        font-size: 160%;
+        margin: 15% 20%;
+    }
+    .jumbotron p {
+        display: none;
+    }
+}
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	
+    .jumbotron h1 {
+        font-size: 160%;
+        margin: 15% 20%;
+    }
+    .jumbotron p {
+        display: none;
+    }
+}
+
+
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron h1 {
+        font-size: 160%;
+        margin: 15% 20%;
+    }
+    .jumbotron p {
+        display: none;
+    }
+}
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
+    .jumbotron h1 {
+        font-size: 160%;
+        margin: 15% 20%;
+        
+    }
+    .jumbotron p {
+        display: none;
+    }
+}
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        .jumbotron h1 {
+            font-size: 160%;
+            margin: 15% 20%;
+        }
+        .jumbotron p {
+            display: none;
+        }
+
+}
+
+
+/*iPhone XS*/
+    @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+	
+	
+}
+
+/* iphone XS Max */
+    @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3){
+	
+	
+}
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+   
+		
+}
+
+
+/*/////////Other androids///////////*/
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+	/*myStyles*/
+}
+
+
+  
+  
+  /*---LAPTOPS AND ABOVE---*/
+  
+  /* ----------- Non-Retina Screens ----------- */
+  @media screen 
+   and (min-device-width: 1200px) 
+   and (max-device-width: 1600px) 
+   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    
+
+  
+  }
+  
+  /* ----------- Retina Screens ----------- */
+  @media screen 
+   and (min-device-width: 1200px) 
+   and (max-device-width: 1600px) 
+   and (-webkit-min-device-pixel-ratio: 2)
+   and (min-resolution: 192dpi) { 
+  
+  
+  }
+  
+
+/* ----------- Wide Screens ----------- */
+
+@media only screen  and (min-width : 1224px) {
+  
+  
+}
+   
+@media only screen  and (min-width : 1824px) {
+  
+  
+}
+
+@media (min-width: 2000) {
+  
+   
+}
