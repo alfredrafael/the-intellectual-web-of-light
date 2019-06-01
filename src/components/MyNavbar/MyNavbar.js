@@ -12,7 +12,8 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 import logo from '../../logo.svg';
-import '../../App';
+//import '../../App';
+import darkWebLogo from '../../assets/intellectualdarkweb_png.png'
 
 
 class MyNavbar extends React.Component {
@@ -33,7 +34,7 @@ class MyNavbar extends React.Component {
           return (
             <div>
               <Navbar color="light" light expand="md">
-                <NavbarBrand href="/"><img src={logo} className="App-logo" alt="page logo"/>Intellectual React Web</NavbarBrand>
+                <NavbarBrand href="/"><img src={darkWebLogo} style={{maxWidth: '4%',}} alt="page logo"/> The Intellectual Dark Web</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>

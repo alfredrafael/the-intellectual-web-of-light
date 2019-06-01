@@ -7,9 +7,15 @@ import {
   CarouselCaption
 } from "reactstrap";
 import "./MyCarousel.css";
+import xMark from '../../assets/xMark.png'
 
 
 const items = [
+  {
+    src: "https://i.imgur.com/9TM8YwN.jpg"
+    // altText: 'Slide 3',
+    // caption: 'Slide 3'
+  },
   {
     src: "https://i.imgur.com/nIqUASY.png",
     altText: "Slide 1",
@@ -24,7 +30,7 @@ const items = [
     src: "https://i.imgur.com/E3LBQGl.jpg"
     // altText: 'Slide 3',
     // caption: 'Slide 3'
-  }
+  },
 ];
 
 class MyCarousel extends React.Component {
@@ -75,7 +81,7 @@ class MyCarousel extends React.Component {
 
     const slides = items.map(item => {
       return (
-        <CarouselItem
+        <CarouselItem 
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
@@ -95,15 +101,15 @@ class MyCarousel extends React.Component {
       <div className="carouselReturn">
         <div className="jumbotronContainer">
           <div className="jumbotron bg-transparent">
-            <h1 className="display-4">The Intellectual Dark Web</h1>
+            <h1 className="display-4">The Intellectual <br/><span style={{position: 'relative'}}>
+            <img src={xMark} 
+            style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web</h1>
             <p className="lead">
-              This is a simple hero unit, a simple jumbotron-style component for
-              calling extra attention to featured content or information.
+              This is a simple hero unit, a simple jumbotron-style component.
             </p>
             <hr className="my-4" />
             <p>
-              It uses utility classes for typography and spacing to space
-              content out within the larger container.
+              {/* more text could be here*/}
             </p>
             <p className="lead">
               <a className="btn btn-primary btn-lg" href="#" role="button">
@@ -116,8 +122,9 @@ class MyCarousel extends React.Component {
           activeIndex={activeIndex}
           next={this.next}
           previous={this.previous}
-          interval="2000"
+          interval="3000"
           className="carousel-fade"
+          ride="carousel"
         >
           <CarouselIndicators
             items={items}

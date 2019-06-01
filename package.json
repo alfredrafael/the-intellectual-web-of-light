@@ -1,9 +1,11 @@
 {
   "name": "populate-modal",
+  "homepage": "https://alfredrafael/the-intellectual-web-of-light",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-reveal": "^1.2.2",
@@ -16,6 +18,8 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
