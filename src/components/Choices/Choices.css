@@ -1,3 +1,11 @@
 .choicesContainer {
     margin: 5% 5%;
 }
+
+.cardBody {
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 135%;
+    font-family: Lato
+}
