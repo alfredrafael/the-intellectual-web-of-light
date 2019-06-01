@@ -1,5 +1,9 @@
 .carouselReturn { 
- 
+
+}
+
+.myCarousel {
+
 }
 .carouselItem img { /*make pictures to fit in its carousel format */ 
     width: 100%; /* Full width (cover the whole page) */
@@ -32,6 +36,8 @@ h3 {
 
 .jumbotron h1 {
     font-size: 550%;
+    font-family: Lato;
+    
 }
 
 /*

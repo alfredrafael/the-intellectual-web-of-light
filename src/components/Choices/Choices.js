@@ -21,65 +21,51 @@ const Choices = props => {
       <Fade>
         <Row>
           <Col md="4" sm="4">
-            <Card>
-              <CardBody className='cardBody'>
-                <CardTitle>What is the Intellectual Dark Web?</CardTitle>
-              {/*   <CardSubtitle>Card subtitle</CardSubtitle> */}
-              </CardBody>
-              <img
-                width="100%"
-                src="https://i.imgur.com/cDP6ZnX.jpg"
-                alt="Card image cap"
-              />
-              <CardBody className='cardBody'>
-                <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </CardText>
-                <CardLink href="#">Card Link</CardLink>
-                <CardLink href="#">Another Link</CardLink>
+            <Card className="card">
+              <CardBody className="cardBody">
+                <CardTitle className="cardTitle">
+                  Intellectual Dark... what?
+                </CardTitle>
+                {/*   <CardSubtitle>Card subtitle</CardSubtitle> */}
+
+                <img
+                  width="100%"
+                  src="https://i.imgur.com/cDP6ZnX.jpg"
+                  alt="Card image cap"
+                />
+
+                <CardSubtitle>{/* Card subtitle */}</CardSubtitle>
               </CardBody>
             </Card>
           </Col>
           <Col md="4" sm="4">
-            <Card>
-            <CardBody className='cardBody'>
-            <CardTitle>Who are the greatest exponents of the intellectual dark web?</CardTitle>
-              {/*   <CardSubtitle>Card subtitle</CardSubtitle> */}
-              </CardBody>
-              <img
-                width="100%"
-                src="https://secure.meetupstatic.com/photos/event/7/c/e/6/600_474871974.jpeg"
-                alt="Card image cap"
-              />
-              <CardBody className='cardBody'>
-                <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </CardText>
-                <CardLink href="#">Card Link</CardLink>
-                <CardLink href="#">Another Link</CardLink>
+            <Card className="card">
+              <CardBody className="cardBody">
+                <CardTitle className="cardTitle">
+                  Figures
+                </CardTitle>
+                <img
+                  width="100%"
+                  src="https://secure.meetupstatic.com/photos/event/7/c/e/6/600_474871974.jpeg"
+                  alt="Card image cap"
+                />
+
+                <CardSubtitle>{/* Card subtitle */}</CardSubtitle>
               </CardBody>
             </Card>
           </Col>
           <Col md="4" sm="4">
-            <Card>
-            <CardBody className='cardBody'>
-            <CardTitle>What are the central concepts of the intellectual Dark Web</CardTitle>
-              {/*   <CardSubtitle>Card subtitle</CardSubtitle> */}
-              </CardBody>
-              <img
-                width="100%"
-                src="https://i.imgur.com/iJxqhHv.jpg"
-                alt="Card image cap"
-              />
-              <CardBody className='cardBody'>
-                <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </CardText>
-                <CardLink href="#">Card Link</CardLink>
-                <CardLink href="#">Another Link</CardLink>
+            <Card className="card">
+              <CardBody className="cardBody">
+                <CardTitle className="cardTitle">
+                  Concepts
+                </CardTitle>
+                <img
+                  width="100%"
+                  src="https://i.imgur.com/iJxqhHv.jpg"
+                  alt="Card image cap"
+                />
+                <CardSubtitle>{/* Card subtitle */}</CardSubtitle>
               </CardBody>
             </Card>
           </Col>

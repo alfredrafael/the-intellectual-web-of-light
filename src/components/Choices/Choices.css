@@ -3,9 +3,19 @@
 }
 
 .cardBody {
-    background: black;
-    color: white;
-    font-weight: bold;
-    font-size: 135%;
-    font-family: Lato
+    background: linear-gradient(rgb(167, 153, 153), black);
+    color: #ffff;
+    font-weight: light;
+    font-size: 200%;
+    font-family: Lato;
+    border-radius: 20px;
+}
+
+.card {
+    border-radius: 25px !important;
+    text-align: center;
+}
+
+.cardTitle {
+    
 }

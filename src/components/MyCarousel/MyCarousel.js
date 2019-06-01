@@ -12,13 +12,13 @@ import xMark from '../../assets/xMark.png'
 
 const items = [
   {
-    src: "https://i.imgur.com/9TM8YwN.jpg"
+    src: "https://i.imgur.com/9TM8YwN.jpg" 
     // altText: 'Slide 3',
     // caption: 'Slide 3'
   },
   {
     src: "https://i.imgur.com/nIqUASY.png",
-    altText: "Slide 1",
+    altText: "Casey",
     caption: "Slide 1"
   },
   {
@@ -31,6 +31,8 @@ const items = [
     // altText: 'Slide 3',
     // caption: 'Slide 3'
   },
+  { src:"https://static.politico.com/dims4/default/28cec81/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F93%2F64%2Fb529c8d44e15a79d49615673bdaa%2Flester-opener-bymarkmetcalfe-web.jpg"
+  }
 ];
 
 class MyCarousel extends React.Component {
@@ -101,7 +103,7 @@ class MyCarousel extends React.Component {
       <div className="carouselReturn">
         <div className="jumbotronContainer">
           <div className="jumbotron bg-transparent">
-            <h1 className="display-4">The Intellectual <br/><span style={{position: 'relative'}}>
+            <h1 className="display-4"><span style={{zIndex: '4', position: 'relative'}}>The Intellectual</span> <br/><span style={{position: 'relative'}}>
             <img src={xMark} 
             style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web</h1>
             <p className="lead">
@@ -123,7 +125,7 @@ class MyCarousel extends React.Component {
           next={this.next}
           previous={this.previous}
           interval="3000"
-          className="carousel-fade"
+          className="carousel-fade myCarousel"
           ride="carousel"
         >
           <CarouselIndicators
