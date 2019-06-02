@@ -12,26 +12,30 @@ import xMark from '../../assets/xMark.png'
 
 const items = [
   {
-    src: "https://i.imgur.com/9TM8YwN.jpg" 
-    // altText: 'Slide 3',
-    // caption: 'Slide 3'
+    src: "https://i.imgur.com/wLHKaKL.png", 
+    // altText: 'Hirsi Ali alt',
+     caption: 'Ayaan Hirsi Ali',
+     source: <p> <a href='https://www.theahafoundation.org/international-womens-day-a-day-of-celebration-and-promise-for-a-better-future/'></a></p>
   },
   {
-    src: "https://i.imgur.com/nIqUASY.png",
-    altText: "Casey",
-    caption: "Slide 1"
+    src: "https://i.imgur.com/NvYZkgQ.png",
+    caption: "Sam Harris",
+  // source: "Sam Harris",
+
   },
   {
-    src: "https://i.imgur.com/XyL4veP.png"
-    //   altText: 'Slide 2',
-    //   caption: 'Slide 2'
+    src: "https://i.imgur.com/AuIyjbI.jpg",
+       caption: 'Claire Lehmann',
+    //   source: 'Slide 2'
   },
   {
-    src: "https://i.imgur.com/E3LBQGl.jpg"
-    // altText: 'Slide 3',
-    // caption: 'Slide 3'
+    src: "https://i.imgur.com/4ar7b3W.png",
+     caption: 'Jonathan Haidt',
+    // source: 'Slide 3'
   },
-  { src:"https://static.politico.com/dims4/default/28cec81/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F93%2F64%2Fb529c8d44e15a79d49615673bdaa%2Flester-opener-bymarkmetcalfe-web.jpg"
+  { src:"https://i.imgur.com/Xc1a1KZ.png",
+     caption: 'Jordan Peterson',
+    // source: 'Slide 3'
   }
 ];
 
@@ -92,8 +96,9 @@ class MyCarousel extends React.Component {
           <img src={item.src} alt={item.altText} />
 
           <CarouselCaption
-            captionText={item.caption}
+            captionText={item.source}
             captionHeader={item.caption}
+            style={{zIndex: '9'}}
           />
         </CarouselItem>
       );
@@ -105,7 +110,7 @@ class MyCarousel extends React.Component {
           <div className="jumbotron bg-transparent">
             <h1 className="display-4"><span style={{zIndex: '4', position: 'relative'}}>The Intellectual</span> <br/><span style={{position: 'relative'}}>
             <img src={xMark} 
-            style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web <span style={{fontFamily: "Permanent Marker, cursive", color: 'blue'}}>of Light</span></h1>
+            style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web <span style={{fontFamily: "Permanent Marker, cursive", color: 'blue', marginBottom: '3%'}}> of Light</span></h1>
             <p className="lead">
               This is a simple hero unit, a simple jumbotron-style component.
             </p>

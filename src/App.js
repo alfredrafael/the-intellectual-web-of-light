@@ -4,6 +4,8 @@ import './App.css';
 import MyNavbar from './components/MyNavbar/MyNavbar';
 import MyCarousel from './components/MyCarousel/MyCarousel';
 import Choices from './components/Choices';
+import Choices2 from './components/Choices2';
+
 import Earth from './components/Earth/Earth';
 
 class App extends Component {
@@ -12,12 +14,8 @@ class App extends Component {
       <div className="App">
       <MyNavbar />
       <MyCarousel />
-      <Choices />
+      <Choices2/>
        
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-          <i className="fab fa-react"></i>
-        </p>
         
       </div>
       

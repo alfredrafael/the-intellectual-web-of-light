@@ -1,0 +1,6 @@
+.growEffect {
+    transition: all .2s ease-in-out !important;
+}
+.growEffect:hover {
+    transform: scale(1.2) !important;
+}
