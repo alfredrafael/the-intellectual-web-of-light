@@ -15,6 +15,9 @@ import logo from '../../logo.svg';
 //import '../../App';
 import darkWebLogo from '../../assets/intellectualdarkweb_png.png'
 
+// import $ from 'jquery';
+// import {findDOMNode} from 'react-dom';
+
 
 class MyNavbar extends React.Component {
         constructor(props) {
@@ -30,6 +33,12 @@ class MyNavbar extends React.Component {
             isOpen: !this.state.isOpen
           });
         }
+
+        // handleToggle = () => {
+        //   const element = findDOMNode(this.refs.toggle);
+        //   $(element).slideToggle();
+        // }
+
         render() {
           return (
             <div>

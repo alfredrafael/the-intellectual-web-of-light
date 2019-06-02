@@ -105,7 +105,7 @@ class MyCarousel extends React.Component {
           <div className="jumbotron bg-transparent">
             <h1 className="display-4"><span style={{zIndex: '4', position: 'relative'}}>The Intellectual</span> <br/><span style={{position: 'relative'}}>
             <img src={xMark} 
-            style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web</h1>
+            style={{position: 'absolute', maxWidth: '150%', margin: '-50% -100% 0 10%'}}/>Dark</span> Web <span style={{fontFamily: "Permanent Marker, cursive", color: 'blue'}}>of Light</span></h1>
             <p className="lead">
               This is a simple hero unit, a simple jumbotron-style component.
             </p>
