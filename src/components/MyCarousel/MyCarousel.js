@@ -33,7 +33,7 @@ const items = [
      caption: 'Jonathan Haidt',
     // source: 'Slide 3'
   },
-  { src:"https://i.imgur.com/Xc1a1KZ.png",
+  { src:"https://i.imgur.com/FaYJnew.jpg",
      caption: 'Jordan Peterson',
     // source: 'Slide 3'
   }
