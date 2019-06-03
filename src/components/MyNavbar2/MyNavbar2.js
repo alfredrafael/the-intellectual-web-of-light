@@ -23,7 +23,7 @@ class MyNavbar2 extends React.Component {
     <input type="checkbox" id="nav-check"/>
     <div class="nav-header">
         <div class="nav-logo">
-        JoGeek
+        Archaya
         </div>
     </div>
     <div class="nav-btn">
