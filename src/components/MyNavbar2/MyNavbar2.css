@@ -3,6 +3,7 @@
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav*/
 /*https://codepen.io/alfredrafael/pen/yWZpeQ?editors=0010*/
 
+/*
 nav {
   background-color: transparent;
   overflow: hidden;
@@ -13,6 +14,14 @@ nav {
   z-index: 1;
   height: 9.3%;
 }
+
+
+nav.scroll {
+  background-color: #EEE;
+  box-shadow: 0px 4px 7px #777;
+}
+
+ 
 
 .title {
   font-size: 150%;
@@ -60,16 +69,12 @@ nav .navNarrow .narrowLinks a {
   nav .navNarrow {
     display: none;
   }
-}
+} */
 
 
 
 
 
-nav.scroll {
-  background-color: #EEE;
-  box-shadow: 0px 4px 7px #777;
-}
 
 
 

@@ -1,6 +1,7 @@
 .carouselReturn { 
-
+    z-index: 1 !important;
 }
+
 
 .myCarousel {
 

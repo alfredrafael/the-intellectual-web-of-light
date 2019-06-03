@@ -92,6 +92,7 @@ class MyCarousel extends React.Component {
           onExited={this.onExited}
           key={item.src}
           className="carouselItem"
+          style={{zIndex: '-1'}}
         >
           <img src={item.src} alt={item.altText} />
 

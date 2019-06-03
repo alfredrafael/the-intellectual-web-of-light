@@ -10,9 +10,6 @@ class WhatIs extends React.Component {
         return (
             <div className='whatIsBody'>
             <h3>This is the "What is" component!</h3>
-            <MyNavbar2 />
-            <Choices2/>
-            <Choices2/>
            </div>
         );
    }
