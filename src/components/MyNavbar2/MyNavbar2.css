@@ -4,27 +4,34 @@
 /*https://codepen.io/alfredrafael/pen/yWZpeQ?editors=0010*/
 
 nav {
-  background-color: #00f;
+  background-color: transparent;
   overflow: hidden;
   padding: 1em;
-  border-bottom: 1px solid #000;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+  height: 9.3%;
 }
-nav a {
-  color: #fff;
+
+.title {
+  font-size: 150%;
+  transform: translateY(-2em) !important;
 }
+
 nav a:visited {
-  color: #fff;
+  color: grey;
 }
 nav .navWide {
   display: none;
   margin: 0 auto;
+  color: black;
+  padding-top: 0.5%;
 }
+
 nav .navWide .wideDiv {
-  text-align: center;
+  text-align: right;
+  transform: translateY(-2em);
 }
 nav .navWide .wideDiv a {
   text-decoration: none;

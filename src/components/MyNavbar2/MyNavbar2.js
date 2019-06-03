@@ -27,11 +27,20 @@ class MyNavbar2 extends React.Component {
     render() {
         return (
             <nav id='nav'>
-				<div className="navWide">
-					<div className="wideDiv">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
+                <div className="navWide">
+                <Link className="title">
+                    <img src={darkWebLogo} style={{ maxWidth: "4%", marginTop: '-0.7%', marginLeft: '3%', float: 'left' }} alt="page logo" />
+                    <span className='navTitle'>
+            The Intellectual{" "}
+            <span style={{ textDecoration: "line-through" }}>Dark</span> Web{" "}
+          </span>
+                    
+                    </Link>
+                    <div className="wideDiv">
+                    
+						<Link to="/">Home</Link> 
+						<Link> Link 2</Link> 
+						<Link> Link 3</Link> 
 					</div>
 				</div>
 				<div className="navNarrow">
