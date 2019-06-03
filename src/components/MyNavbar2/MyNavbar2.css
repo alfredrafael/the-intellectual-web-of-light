@@ -1,13 +1,97 @@
 
 /* https://codepen.io/jhiam/pen/woZaKZ?editors=1010*/
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav*/
+/*https://codepen.io/alfredrafael/pen/yWZpeQ?editors=0010*/
+
+nav {
+  background-color: #00f;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+nav a {
+  color: #fff;
+}
+nav a:visited {
+  color: #fff;
+}
+nav .navWide {
+  display: none;
+  margin: 0 auto;
+}
+nav .navWide .wideDiv {
+  text-align: center;
+}
+nav .navWide .wideDiv a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 2em;
+}
+nav .navNarrow i {
+  float: left;
+  cursor: pointer;
+  color: #fff;
+}
+nav .navNarrow .narrowLinks {
+  display: none;
+}
+nav .navNarrow .narrowLinks a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 0.5em 0;
+}
+@media (min-width: 580px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+
+
+
+
+
+nav.scroll {
+  background-color: #EEE;
+  box-shadow: 0px 4px 7px #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   height: 4em;
   width: 100%;
-  background-color: transparent; /*by defalut*/
+  background-color: transparent;
   box-sizing: border-box;
   padding: 12px 18px;
   transition: background-color 0.4s ease-out;
@@ -58,3 +142,5 @@ body > header {
   }
 
 }
+
+*/
