@@ -13,7 +13,7 @@
     "react-reveal": "^1.2.2",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "0.9.x",
+    "react-scripts": "3.4.x",
     "reactstrap": "^8.0.0",
     "styled-components": "^4.2.1"
   },
